@@ -1,0 +1,11 @@
+gpu03|gpu_requeue|mixed|60/4/0/64|502123|400000|gpu:1g.10gb:28(S:0-1)|gpu:1g.10gb:20(IDX:0-19)
+gpu12|gpu|mixed|60/4/0/64|502123|420000|gpu:A100:4(S:0-1)|gpu:A100:4(IDX:0-3)
+gpu13|gpu|mixed|62/2/0/64|502123|410000|gpu:A100:4(S:0-1)|gpu:A100:3(IDX:0,2-3)
+gpu30|gpu_requeue|mixed-|10/54/0/64|502700|80000|gpu:H100:2(S:0-1)|gpu:H100:0(IDX:N/A)
+gpu38|gpu|mixed|36/28/0/64|502700|160000|gpu:L40S:2(S:0-1)|gpu:L40S:1(IDX:0)
+gpu39|gpu|idle|0/64/0/64|502700|0|gpu:L40S:2(S:0-1)|gpu:L40S:0(IDX:N/A)
+gpu40|gpu|drained*|0/0/64/64|502184|0|gpu:L40S:2(S:0-1)|gpu:L40S:0(IDX:N/A)
+gpu38|gpu_requeue|mixed|36/28/0/64|502700|160000|gpu:L40S:2(S:0-1)|gpu:L40S:1(IDX:0)
+cpu05|requeue*|idle|0/128/0/128|515000|0|(null)|gpu:0
+cpu05|general|idle|0/128/0/128|515000|0|(null)|gpu:0
+cpu31|general|allocated|128/0/0/128|515000|500000|(null)|gpu:0

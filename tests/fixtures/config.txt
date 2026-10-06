@@ -1,0 +1,17 @@
+PriorityParameters      = (null)
+PrioritySiteFactorParameters = (null)
+PrioritySiteFactorPlugin = (null)
+PriorityDecayHalfLife   = 7-00:00:00
+PriorityCalcPeriod      = 00:05:00
+PriorityFavorSmall      = No
+PriorityFlags           = 
+PriorityMaxAge          = 7-00:00:00
+PriorityUsageResetPeriod = NONE
+PriorityType            = priority/multifactor
+PriorityWeightAge       = 1000
+PriorityWeightAssoc     = 0
+PriorityWeightFairShare = 10000
+PriorityWeightJobSize   = 0
+PriorityWeightPartition = 0
+PriorityWeightQOS       = 0
+PriorityWeightTRES      = (null)
